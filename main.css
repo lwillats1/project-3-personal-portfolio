@@ -4,5 +4,7 @@ html,
 }
 
 body{
+    background-color: black;
+    color:#006F04;
     text-align: center;
 }
