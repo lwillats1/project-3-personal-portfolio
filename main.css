@@ -7,9 +7,6 @@ html,
     box-sizing: border-box;
 }
 
-*{
-z-index: 101;
-}
 
 body{
     background-color: black;
