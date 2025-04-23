@@ -1,0 +1,36 @@
+/* Scoping styles to prevent format changes */
+
+/* Ensure proper box-sizing */
+#container, #cursor, .a_star {
+    box-sizing: border-box;
+}
+
+/* Stars container styling */
+#container {
+    height: 100%;
+    width: 100%;
+    position:fixed; /* Keeps stars as the background */
+    background: transparent; /* Prevent overriding main background */
+    overflow: hidden; /* Ensure stars don't spill outside the container */
+    z-index: -1; /* Push behind main content */
+}
+
+/* Star styles */
+.a_star {
+    transition-duration: 1s;
+    position: absolute; /* Position stars within the container */
+    border-radius: 50%; /* Circular stars */
+}
+
+/* Cursor styling */
+#cursor {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    -moz-backdrop-filter: brightness(1000%);
+    -webkit-backdrop-filter: brightness(1000%);
+    backdrop-filter: brightness(1000%);
+    pointer-events: none; /* Prevent interference with clicks */
+    z-index: 100; /* Ensures cursor appears above the content */
+}

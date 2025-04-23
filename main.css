@@ -7,10 +7,13 @@ html,
     box-sizing: border-box;
 }
 
+*{
+z-index: 101;
+}
+
 body{
     background-color: black;
-    background-image: url("../project-3-personal-portfolio/Images/sky.jpg");
-    color:#006F04;
+    color:#00AF05;
     font-family: "Jolly Lodger", system-ui;
     font-weight: 400;
     font-size: 128px;
@@ -18,15 +21,24 @@ body{
     text-align: center;
     -webkit-text-stroke-width: .2vh;
     -webkit-text-stroke-color: #09290A;
+    
 }
 
 h1{
-    color: #006F04;
-    -webkit-text-stroke-width: .3vh;
-    -webkit-text-stroke-color: #09290A;
+    color: #00AF05;
     font-family: Inspiration;
     font-size: 30vh;
     font-weight: 400;
+}
+
+h2{
+    -webkit-text-stroke-width: .1vh;
+
+}
+
+h3{
+    -webkit-text-stroke-width: .1vh;
+
 }
 
 p{
@@ -38,5 +50,8 @@ p{
     font-weight: 400;
     line-height: normal;
     border-radius: 80px;
-    background: #09290A;
+    background: #09290a79;
+    -webkit-text-stroke-width: .1vh;
+
 }
+
