@@ -52,6 +52,6 @@ for (let i = 0; i < size; i++) {
 
 // Custom cursor movement
 document.body.addEventListener('mousemove', (e) => {
-    cursor.style.left = (e.pageX - cursor.offsetWidth / 2) + 'px';
-    cursor.style.top = (e.pageY - cursor.offsetHeight / 2) + 'px';
+    cursor.style.left = (e.clientX - cursor.offsetWidth / 2) + 'px';
+    cursor.style.top = (e.clientY - cursor.offsetHeight / 2) + 'px';
 });
