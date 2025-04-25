@@ -75,4 +75,6 @@ p{
 }
 .general2 img{
     margin-left: 5vh;
+    object-fit: contain;
 }
+
