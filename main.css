@@ -43,7 +43,7 @@ p{
     color: #00A405;
     display:flexbox;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    text-indent: 5%;
+    text-indent: 20px;
     font-size:50px;
     font-style: normal;
     font-weight: 400;
@@ -55,14 +55,16 @@ p{
     padding-right: 10vh;
     padding-top: 5vh;
     padding-bottom: 5vh;
-
 }
 
 .general{
     display: flex;
     align-items: right;
     text-align: left;
+    align-content: center; 
+    font-size: 50px; 
 }
+
 .general img{
     margin-right: 5vh;
     object-fit: contain;
@@ -70,11 +72,11 @@ p{
 
 .general2{
     display: flex;
-    align-items: left;
     text-align: right;
+    font-size: 50px;
 }
+
 .general2 img{
     margin-left: 5vh;
     object-fit: contain;
 }
-
