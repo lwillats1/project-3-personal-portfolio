@@ -41,10 +41,9 @@ h3{
 
 p{
     color: #00A405;
-    display:flexbox;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     text-indent: 20px;
-    font-size:50px;
+    font-size:5vh;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -57,13 +56,21 @@ p{
     padding-bottom: 5vh;
 }
 
+.info-box{
+display: flex;
+align-items:center;
+gap: 20px;
+margin-bottom: 2vh
+}
+
+.info-box img{
+object-fit: contain;
+size-adjust:45%;
+}
+
 .general{
     align-content: center; 
     font-size: 5vh; 
-}
-
-.general img{
-    object-fit: contain;
 }
 
 .general2{
@@ -73,9 +80,11 @@ p{
     align-content:center;
 }
 
-.general2 img{
-    margin-left: 5vh;
-    object-fit: contain;
+.general3{
+    display: flex;
+    text-align: left;
+    font-size: 5vh;
+    align-content:left;
 }
 
 a:-webkit-any-link {
