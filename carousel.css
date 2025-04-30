@@ -96,15 +96,10 @@
   
   .carousel__slide {
     position: relative;
-    flex: 0 0 100%;
+    flex: 0 0 70%;
     width: 70vh;
     height: 70vh;
-    background-color: #f99;
     counter-increment: item;
-  }
-  
-  .carousel__slide:nth-child(even) {
-    background-color: #99f;
   }
   
   .carousel__slide:before {
@@ -130,7 +125,6 @@
     .carousel__snapper {
       animation-name: tonext, snap;
       animation-timing-function: ease;
-      animation-duration: 4s;
       animation-iteration-count: infinite;
     }
   
@@ -215,11 +209,5 @@
     pointer-events: none;
   }
   
-  .carousel::before {
-    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon points='0,50 80,100 80,0' fill='%23fff'/%3E%3C/svg%3E");
-  }
-  
-  .carousel::after {
-    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon points='100,50 20,100 20,0' fill='%23fff'/%3E%3C/svg%3E");
-  }
+ 
   
