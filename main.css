@@ -81,3 +81,8 @@ p{
     margin-left: 5vh;
     object-fit: contain;
 }
+
+a:-webkit-any-link {
+    color:#00A405;
+    cursor: pointer;
+}
