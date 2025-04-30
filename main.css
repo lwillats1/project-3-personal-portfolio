@@ -58,22 +58,18 @@ p{
 }
 
 .general{
-    display: flex;
-    align-items: right;
-    text-align: left;
     align-content: center; 
-    font-size: 50px; 
+    font-size: 5vh; 
 }
 
 .general img{
-    margin-right: 5vh;
     object-fit: contain;
 }
 
 .general2{
     display: flex;
     text-align: right;
-    font-size: 50px;
+    font-size: 5vh;
     align-content:center;
 }
 
@@ -85,4 +81,31 @@ p{
 a:-webkit-any-link {
     color:#00A405;
     cursor: pointer;
+    text-decoration: none;
+
+
+    display:flexbox;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size:8vh;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 80px;
+    background: #09290a79;
+    -webkit-text-stroke-width: .2vh;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+
+}
+a:hover{
+    color: #09290A;
+    text-decoration: none;
+}a:visited{
+    color: #00A405;
+    text-decoration: none;
+}
+a:active{
+    color: #09290A;
+    text-decoration: none;
 }
