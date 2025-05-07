@@ -7,7 +7,6 @@ html,
     box-sizing: border-box;
 }
 
-
 body{
     background-color: black;
     color:#00AF05;
@@ -22,10 +21,16 @@ body{
 }
 
 h1{
+   display: inline-block;
     color: #00AF05;
     font-family: Inspiration;
     font-size: 30vh;
     font-weight: 400;
+    z-index: 50;
+}
+
+h1 span:hover {
+    animation: bounce 1s ease infinite;
 }
 
 h2{
@@ -34,6 +39,7 @@ h2{
 }
 
 h3{
+    font-size: 5vh;
     -webkit-text-stroke-width: .1vh;
 
 }
@@ -175,3 +181,13 @@ a:active{
     height: 100%;
     border: none;
 }
+
+#social{
+    padding-left: 4vh;
+    text-align: left;
+}
+.socialite{
+    line-height: 5vh;
+    padding-bottom: 5vh;
+}
+
