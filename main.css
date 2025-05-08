@@ -34,7 +34,7 @@ h1 span:hover {
 }
 
 h2{
-    font-size: 20vw;
+    font-size: 15vw;
     -webkit-text-stroke-width: .1vh;
 
 }
@@ -211,7 +211,7 @@ a:active{
 
 .spotify{
     text-align: right;
-    padding-right: 10vh;
+    padding-right: 10vw;
 }
 .spotifylite{
     padding-bottom: 10vh;
@@ -222,12 +222,13 @@ a:active{
     text-align: left;
 }
 .socialite{
-    line-height: 5vh;
+    line-height: 5vw;
     padding-bottom: 10vh;
 }
 
 .disclaimer{
     background-color: #09290a78;
-    padding: 2vh;
+    padding: 2vw;
     margin: 0;
+    font-size: clamp(24px, 64px, 150px);
 }
