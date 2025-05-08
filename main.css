@@ -20,7 +20,7 @@ body{
     
 }
 
-h1{
+h1 {
    display: inline-block;
     color: #00AF05;
     font-family: Inspiration;
@@ -34,12 +34,13 @@ h1 span:hover {
 }
 
 h2{
+    font-size: 20vw;
     -webkit-text-stroke-width: .1vh;
 
 }
 
 h3{
-    font-size: 5vh;
+    font-size: 8vw;
     -webkit-text-stroke-width: .1vh;
 
 }
@@ -143,23 +144,23 @@ a:active{
     position: absolute;
     bottom: 50vh;
     height: 120vh;
-    width: auto;
+    width: 120vw;
     z-index: -2;
     opacity: 20%;
 }
 
   /* Styling the caption. You can position it on top or below the map */
   .caption{
+    font-size: clamp(24px, 4vw, 48px);
     left: 1rem;
     right: 1rem;
-    font-size: 5vh;      /* Adjust the font size as needed */
     text-align: center;
   }
   .caption2{
+    font-size: clamp(24px, 4vw, 48px);
     z-index: 10;
     left: 1rem;
     right: 1rem;
-    font-size: 5vh;      /* Adjust the font size as needed */
     text-align: center;
 
   }
@@ -176,14 +177,12 @@ a:active{
 .general2{
     display: flex;
     text-align: right;
-    font-size: 5vh;
     align-content:center;
 }
 
 .general3{
     display: flex;
     text-align: left;
-    font-size: 5vh;
     align-content:left;
 }
 
@@ -196,23 +195,18 @@ a:active{
 }
 
 .map{
-    margin: auto;
     min-height: 100vh;
-    min-width: 100vh;
-    padding-left: 10vh;
-    padding-right: 10vh;
+    min-width: 100vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
     padding-top: 10vh;
     padding-bottom: 10vh;
 }
 
 .map-iframe{
     position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border:rgba(255, 255, 255, 0.337);
+    width: 100vw;
+    height: 100vh;
 }
 
 .spotify{
