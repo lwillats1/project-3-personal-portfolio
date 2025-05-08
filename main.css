@@ -70,8 +70,10 @@ margin-bottom: 2vh;
 }
 
 .info-box img{
-object-fit: contain;
-width: 100%;
+object-fit:contain;
+width: 75vh;
+height: auto;
+padding: 10vh;
 }
 
 
