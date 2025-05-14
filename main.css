@@ -147,6 +147,8 @@ a:active{
     mix-blend-mode:green;
     image-resolution:1000%;
     position: absolute;
+    top:10vh;
+    height:auto;
     width: 120vw;
     z-index: -2;
     opacity: 20%;
