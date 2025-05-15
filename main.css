@@ -24,6 +24,7 @@ h1 {
     font-family: Inspiration;
     font-size: clamp(120px, 30vw, 360px);
     font-weight: 400;
+    top:50vh;
     z-index: 50;
 }
 
